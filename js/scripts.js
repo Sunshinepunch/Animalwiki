@@ -5,15 +5,23 @@ $(document).ready(function() {
       if (value === "snake") {
         $("#bearinfo").hide();
         $("#eagleinfo").hide();
+        $("#maninfo").hide();
         $("#snakeinfo").show();
       } else if (value === "bear"){
         $("#eagleinfo").hide();
         $("#snakeinfo").hide();
+        $("#maninfo").hide();
         $("#bearinfo").show();
       } else if (value === "eagle"){
         $("#snakeinfo").hide();
         $("#bearinfo").hide();
+        $("#maninfo").hide();
         $("#eagleinfo").show();
+      } else if (value === "nvvy"){
+        $("#snakeinfo").hide();
+        $("#bearinfo").hide();
+        $("#eagleinfo").hide();
+        $("#maninfo").show();
         }
       });
     });
