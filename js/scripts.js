@@ -17,7 +17,7 @@ $(document).ready(function() {
         $("#bearinfo").hide();
         $("#maninfo").hide();
         $("#eagleinfo").show();
-      } else if (value === "nvvy"){
+      } else if (value === "man"){
         $("#snakeinfo").hide();
         $("#bearinfo").hide();
         $("#eagleinfo").hide();
